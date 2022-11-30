@@ -1,4 +1,10 @@
 
+var _ = require('lodash');
+
+var array = [1,2,3,4,5,6];
+console.log('answer', _.without(array, 3))
+
+
 // Define selectors
 var css = document.querySelector("h3");
 var color1 = document.querySelector(".color1");
